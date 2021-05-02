@@ -139,7 +139,7 @@ class GetFilesByQueryTask(FiretaskBase):
     def run_task(self, fw_spec):
         import pymongo
         import json
-        from ruamel.yaml import YAML
+        from ruamel_yaml import YAML
         from fireworks.utilities.dict_mods import arrow_to_dot
 
         fpad = get_fpad(self.get("filepad_file", None))

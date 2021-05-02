@@ -22,7 +22,7 @@ from six.moves import input, zip
 from flask import g
 
 from pymongo import DESCENDING, ASCENDING
-import ruamel.yaml as yaml
+import ruamel_yaml as yaml
 
 from fireworks.fw_config import RESERVATION_EXPIRATION_SECS, \
     RUN_EXPIRATION_SECS, PW_CHECK_NUM, MAINTAIN_INTERVAL, CONFIG_FILE_DIR, \

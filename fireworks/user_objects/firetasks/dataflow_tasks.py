@@ -381,7 +381,7 @@ class ImportDataTask(FireTaskBase):
         from functools import reduce
         import operator
         import json
-        import ruamel.yaml as yaml
+        import ruamel_yaml as yaml
 
         filename = self['filename']
         mapstring = self['mapstring']

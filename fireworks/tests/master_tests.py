@@ -28,7 +28,7 @@ class TestImports(unittest.TestCase):
     """
 
     def test_imports(self):
-        import ruamel.yaml as yaml
+        import ruamel_yaml as yaml
         import pymongo
         import jinja2
         # test that MongoClient is available (newer pymongo)

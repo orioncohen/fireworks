@@ -39,7 +39,7 @@ import datetime
 import abc
 import sys
 import six
-import ruamel.yaml as yaml
+import ruamel_yaml as yaml
 from monty.json import MontyDecoder, MSONable
 from fireworks.fw_config import FW_NAME_UPDATES, YAML_STYLE, USER_PACKAGES, DECODE_MONTY, ENCODE_MONTY
 from fireworks.fw_config import JSON_SCHEMA_VALIDATE, JSON_SCHEMA_VALIDATE_LIST
